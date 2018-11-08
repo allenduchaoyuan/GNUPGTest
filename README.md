@@ -1,0 +1,2 @@
+# GNUPGTest
+Just test gpg
