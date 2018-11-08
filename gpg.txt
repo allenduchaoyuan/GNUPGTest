@@ -1,0 +1,9 @@
+    gpg全称GNU Privacy Guard，是一个完全免费的OpenPGP标准的加密工具。
+    gpg可以是对称也可以是非对称加密。是目前最流行的几种加密工具之一。
+
+    
+    命令简介：
+    生成gpg的key gpg --full-generate-key
+    查看gpg的key gpg --list-secret-keys --keyid-format LONG
+    用特定的key来加密文件 gpg --recipient 51B42BC3F43C7330B8064C777E2E6DE7A0E88E32 --output demo_en.txt --encrypt /Users/allen/Desktop/test.py
+    解密文件 gpg --output demo_de.txt --decrypt /Users/allen/Desktop/demo_en.txt
