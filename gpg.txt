@@ -7,3 +7,6 @@
     查看gpg的key gpg --list-secret-keys --keyid-format LONG
     用特定的key来加密文件 gpg --recipient 51B42BC3F43C7330B8064C777E2E6DE7A0E88E32 --output demo_en.txt --encrypt /Users/allen/Desktop/test.py
     解密文件 gpg --output demo_de.txt --decrypt /Users/allen/Desktop/demo_en.txt
+    配置本地git git config --global user.signingkey 9854B******9EDA4
+    当前项目使用gpg git config commit.gpgsign true
+    所有git使用gpg git config --global commit.gpgsign true
