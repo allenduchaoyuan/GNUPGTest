@@ -10,3 +10,4 @@
     配置本地git git config --global user.signingkey 9854B******9EDA4
     当前项目使用gpg git config commit.gpgsign true
     所有git使用gpg git config --global commit.gpgsign true
+    签名
